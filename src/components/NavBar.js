@@ -7,31 +7,23 @@ class NavBar extends Component {
         <div className="col-md-12">
           
 
-          <button className="btn btn-default">
-            <i className="fa fa-square-o"></i>
-          </button>
-
-<button className="btn btn-default" disabled="disabled">
+<button className="btn btn-default" disabled="">
             Show all
           </button>
 
-          <button className="btn btn-default" disabled="disabled">
+          <button className="btn btn-default" disabled="">
             Low Risk
           </button>
 
-          <button className="btn btn-default" disabled="disabled">
+          <button className="btn btn-default" disabled="">
             Medium Risk
           </button>
 
-        <button className="btn btn-default" disabled="disabled">
+        <button className="btn btn-default" disabled="">
             High Risk
           </button>
 
-          <select className="form-control label-select" disabled="disabled">
-            <option>Apply label</option>
-            <option value="">Rating</option>
-          </select>
-
+          
           
 
           
