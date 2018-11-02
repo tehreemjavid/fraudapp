@@ -34,8 +34,9 @@ class App extends Component {
       }
     ]
   }
+  
   getData = () => {
-    axios.get()
+    axios.get(http://eater24.herokuapp.com/users)
     .then(events => {this.setState({events})} );
 
   }
