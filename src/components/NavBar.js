@@ -5,21 +5,26 @@ class NavBar extends Component {
     return (
       <div className="row navbar">
         <div className="col-md-12">
-          <p className="pull-right">
-            <span className="badge badge">2</span>
-            unread messages
-          </p>
+          
 
           <button className="btn btn-default">
             <i className="fa fa-square-o"></i>
           </button>
 
-          <button className="btn btn-default" disabled="disabled">
-            Mark As Read
+<button className="btn btn-default" disabled="disabled">
+            Show all
           </button>
 
           <button className="btn btn-default" disabled="disabled">
-            Mark As Unread
+            Low Risk
+          </button>
+
+          <button className="btn btn-default" disabled="disabled">
+            Medium Risk
+          </button>
+
+        <button className="btn btn-default" disabled="disabled">
+            High Risk
           </button>
 
           <select className="form-control label-select" disabled="disabled">
@@ -29,9 +34,7 @@ class NavBar extends Component {
 
           
 
-          <button className="btn btn-default" disabled="disabled">
-            <i className="fa fa-trash-o"></i>
-          </button>
+          
         </div>
       </div>
     )
