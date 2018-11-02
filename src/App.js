@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import FraudList from './components/FraudList';
 import NavBar from './components/NavBar';
+import axios from 'axios'
 
 class App extends Component {
   state = {
