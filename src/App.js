@@ -36,11 +36,10 @@ class App extends Component {
   }
 
   componentDidMount() {
-    // axios.get()
+    // axios.get('')
     // .then((data) => {
     //   this.setState({
-    //     data: data.data,
-    //       reason: data.reason
+    //     data: data.data
     //   })
     // })
   }
@@ -51,7 +50,6 @@ class App extends Component {
       <NavBar />
       <FraudList 
         data = { this.state.data }
-        reason = {this.state.reason}
       />
       </div>
     );
