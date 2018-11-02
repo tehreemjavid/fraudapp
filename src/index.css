@@ -12,3 +12,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Added CSS stylings for the NavBar */
+.navbar {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.navbar .label-select {
+  width: auto;
+  display: inline;
+}
+
+.navbar select,
+.navbar button,
+.navbar a,
+.navbar .badge {
+  margin-right: .5em;
+  margin-bottom: .5em;
+}
