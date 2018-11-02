@@ -1,34 +1,23 @@
 import React from 'react'
 
-const FraudItem = ({ object_id, name, fraud_label, fraud_probability }) => {
+const FraudItem = () => {
     return(
-        // Grey-out to indicate the data is read before
-        <div className="row message unread">
-            <div className="col-xs-2">
-                <div className="row">
-                        {/* ### selection box ### */}
-                    <div className="col-xs-1">
-                        <input type="checkbox" />
-                    </div>
-                        {/* ### filter icon ### */}
-                    <div className="col-xs-1">
-                        <i className="star fa fa-star-o"></i>
-                    </div>
-                    <div className="col-xs-2">
-                        <span className="label label-warning"> { fraud_label } </span>
-                        <div>
-                            <small>
-                                { fraud_probability * 100 }%
-                            </small>
-                        </div>
-                    </div>
-                </div>
+        <div class="row message unread">
+        <div class="col-xs-1">
+            <div class="row">
+            <div class="col-xs-2">
+                <input type="checkbox" />
             </div>
-            <div className="col-xs-7">
-                {/* Data of name title shows here! */}
-                    { name } <br />
-                    <small> #{object_id} </small>
+            <div class="col-xs-2">
+                <i class="star fa fa-star-o"></i>
             </div>
+            </div>
+        </div>
+        <div class="col-xs-11">
+            <a href="#">
+            Here is some message text that has a bunch of stuff
+            </a>
+        </div>
         </div>
     )
 }
