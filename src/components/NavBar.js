@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
-
+// NavBar w/risk buttons, shows whether it is a low, medium, or high 
 class NavBar extends Component {
   render() {
     return (
       <div className="row navbar">
         <div className="col-md-12">
-          
 
 <button className="btn btn-default" disabled="">
-            Show all
+            Show All
           </button>
 
           <button className="btn btn-default" disabled="">
@@ -22,11 +21,6 @@ class NavBar extends Component {
         <button className="btn btn-default" disabled="">
             High Risk
           </button>
-
-          
-          
-
-          
         </div>
       </div>
     )
